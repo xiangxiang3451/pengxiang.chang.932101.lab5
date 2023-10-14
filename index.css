@@ -23,7 +23,7 @@ button {
    
 }
 .box:hover{
-    background-color:forestgreen;
+    background-color:tomato;
 }
 .hidden_box {
     background-color: rgba(250,250,250,0.7);
