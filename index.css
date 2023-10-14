@@ -27,19 +27,18 @@ button {
 }
 .hidden_box {
     background-color: rgba(250,250,250,0.7);
-    height: 100%;
     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
     position: fixed;
-    top: 0px;
-    left: 0px;
     align-items: center;
     justify-content: center;
-    display:none;
+   display: none;
    
 }
 .content {
     background-color: khaki;
-    position: absolute;
     padding: 20px;
     width: 350px;
     height: 190px;

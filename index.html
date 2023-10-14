@@ -19,7 +19,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis
                     labore fugiat id, eligendi ratione veritatis!
                 </p>
-                <div class="button" id="first" onclick="myClick()">
+                <div class="button"  onclick="firstClick()">
                     <button>Открыть всплывающее окно</button>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis
                     labore fugiat id, eligendi ratione veritatis!
                 </p>
-                <div class="button" id="2" onclick="myClick()">
+                <div class="button" id="2" onclick="secondClick()">
                     <button>Открыть всплывающее окно</button>
                 </div>
             </div>
@@ -39,17 +39,17 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis
                     labore fugiat id, eligendi ratione veritatis!
                 </p>
-                <div class="button" id="3" onclick="myClick()">
+                <div class="button" id="3" onclick="thirdClick()">
                     <button>Открыть всплывающее окно</button>
                 </div>
             </div>
-            <div class="hidden_box">
+            <div class="hidden_box" id="box" onclick="show()">
                 <div class="content">
                     <div class="title">
-                        <h2>новость 1</h2>
+                        <h2>новость <span id="firstNum">1</span></h2>
                     </div>
                     <div>
-                        <p>новость 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut
+                        <p>новость<span id="secondNum">1</span> : Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut
                             nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
                     </div>
                     <div>
